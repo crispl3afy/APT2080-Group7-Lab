@@ -1,4 +1,4 @@
-# A simple calculator that performs the four basic operations
+
 
 """
 This is a four arithmetic operation calculator
@@ -21,7 +21,7 @@ class Calculator:
         multiply()
         divide()
     """
-    # initializing the class Constructor
+ 
     def __init__(self, num1, num2, operator):
         # Initializing the class attributes
         self.num1 = num1
