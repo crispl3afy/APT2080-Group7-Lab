@@ -3,6 +3,12 @@
 class Calculator:
     """
     A class that performs four arithmetic 
+    
+    Methods:
+        add()
+        subtract()
+        multiply()
+        divide()
     """
  
     def __init__(self, num1, num2, operator):
@@ -33,22 +39,45 @@ class Calculator:
 
 # Main function for testing the calculator operations
 def main():
-    num1 = int(input("Num 1: "))
-    operator = input("Operator: ")
-    num2 = int(input("Num 2: "))
+    """
+    This main function handles the operation of the calculator
+    """
     
-    # Instantiating the calculator class
-    calc = Calculator(num1, num2, operator)
-    # Add
-    print(calc.add()) 
-    # Subtract
-    print(calc.subtract()) 
-    # Multiply
-    print(calc.multiply())
-    # Divide
-    print(calc.divide())
-
-
+    print("Welcome to 4-operation Calc.\n")
+    while True:
+        try:
+            num1 = int(input("Num 1: "))
+            operator = input("Operator: ")
+            num2 = int(input("Num 2: "))
+        except ValueError:
+            return "Please enter an integer"
+        except Exception as e:
+            return f"Error occured: {e}"
+        
+        # Instantiating the calculator class
+        calc = Calculator(num1, num2, operator)
+        # Add
+        if operator == '+':
+            print(calc.add()) 
+        # Subtract
+        elif operator == '-':
+            print(calc.subtract()) 
+        # Multiply
+        elif operator == '*':
+            print(calc.multiply())
+        # Divide
+        elif operator == '-':
+            print(calc.divide())
+        else:
+            return "Invalid operation"
+        
+        # asking user whether to continue or not
+        continue_choice = input("Do you want to continue? (yes/no) ").lower()
+        if continue_choice != 'yes':
+            print("Thanks for using my program. BYE!!!")
+            break
+    
+# Entry point 
 if __name__ == "__main__":
     main()
          
