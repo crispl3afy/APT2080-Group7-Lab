@@ -1,10 +1,10 @@
-# A simple calculator that performs the four basic operations
+
 
 class Calculator:
     """
     A class that performs four arithmetic 
     """
-    # initializing the class Constructor
+ 
     def __init__(self, num1, num2, operator):
         # Initializing the class attributes
         self.num1 = num1
@@ -47,8 +47,8 @@ def main():
     print(calc.multiply())
     # Divide
     print(calc.divide())
-    
-# Entry point 
+
+
 if __name__ == "__main__":
     main()
          
