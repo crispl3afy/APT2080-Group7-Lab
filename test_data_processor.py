@@ -10,12 +10,12 @@ def test_average_with_positive_numbers():
 
 def test_average_with_negative_numbers():
     """Test average calculation with negative numbers."""
-    result = calculate_average([-10, -20, -30])
+    result = calculate_average([-10, -20, -30])~~~~~~~~~~~~~~~
     assert result == -20.0
 
 
 def test_average_with_mixed_numbers():
-    """Test average with both positive and negative numbers."""
+    """Test average with both positive and ~~negative numbers."""
     result = calculate_average([-10, 0, 10])
     assert result == 0.0
 
