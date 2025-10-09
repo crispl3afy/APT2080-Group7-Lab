@@ -1,12 +1,3 @@
-"""
-data_processor.py
-
-A small module to process numerical data.
-
-Author: Rose Maina
-Date: 07/10/2025
-"""
-
 def calculate_average(numbers):
     """
     Calculate the average of a list of numbers.
