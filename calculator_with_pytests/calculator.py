@@ -1,5 +1,16 @@
 
 
+"""
+This is a four arithmetic operation calculator
+    - Addition
+    - Subtration
+    - Multiply
+    - Divide
+    
+By: Thomas wotoro Joseph
+ID: 674609
+"""
+
 class Calculator:
     """
     A class that performs four arithmetic 
