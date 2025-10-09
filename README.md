@@ -10,6 +10,8 @@ here are the contributors to the assignment
 | Precious Zawadi | 673738 | crispl3afy |
 | Rose Maina | 671834 | Sige001 |
 | Winnie Kihaya | 666067 | winnie-ms |
+| Kate Maina | 672929 | igenuinelyliketocode |
+| Cyrus Mwangi | 674001 | 4cyr |
 
 
 
