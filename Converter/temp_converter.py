@@ -1,10 +1,39 @@
+"""
+converter.py
+Simple temperature converter for APT2080 Group 6 lab.
+Author: Cyrus
+"""
+
 def celsius_to_fahrenheit(celsius):
+    """
+    Convert Celsius to Fahrenheit.
+
+    Args:
+        celsius (float): Temperature in Celsius.
+
+    Returns:
+        float: Temperature in Fahrenheit.
+    """
     return (celsius * 9/5) + 32
 
+
 def fahrenheit_to_celsius(fahrenheit):
+    """
+    Convert Fahrenheit to Celsius.
+
+    Args:
+        fahrenheit (float): Temperature in Fahrenheit.
+
+    Returns:
+        float: Temperature in Celsius.
+    """
     return (fahrenheit - 32) * 5/9
 
+
 def temperature_conversion():
+    """
+    Simple interactive converter that asks the user which conversion to perform.
+    """
     print("Temperature Converter")
     print("1. Celsius to Fahrenheit")
     print("2. Fahrenheit to Celsius")
@@ -20,8 +49,6 @@ def temperature_conversion():
     else:
         print("Invalid choice.")
 
-def main():
-    temperature_conversion()
 
 if __name__ == "__main__":
-    main()
+    temperature_conversion()
