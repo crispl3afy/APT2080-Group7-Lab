@@ -22,7 +22,7 @@ def calculate_average(numbers):
     total = sum(numbers)   # Sum all the numbers
     count = len(numbers)   # Count numbers in the list
     average = total / count
-    return average~
+    return average~~~
 
 
 if __name__ == "__main__":
