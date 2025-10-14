@@ -9,7 +9,7 @@ here are the contributors to the assignment
 | Rayan Nur  | 671479 | rayanmohamed7 |
 | Precious Zawadi | 673738 | crispl3afy |
 | Rose Maina | 671834 | Sige001 |
-
+| Kate Maina | 672929 | igenuinelyliketocode |
 
 
 
