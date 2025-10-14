@@ -12,6 +12,7 @@ here are the contributors to the assignment
 | Winnie Kihaya | 666067 | winnie-ms |
 | Kate Maina | 672929 | igenuinelyliketocode |
 | Cyrus Mwangi | 674001 | 4cyr |
+| Mohamud abdi | 671877 | lamahelanpoi |
 
 
 
